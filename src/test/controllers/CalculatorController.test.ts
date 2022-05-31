@@ -5,9 +5,7 @@ describe('CalculatorController', () => {
     const calculator = new CalculatorController(10);
 
     expect(calculator.num).toEqual(10);
-
     calculator.add(10);
-
     expect(calculator.num).toEqual(20);
   });
 
@@ -15,9 +13,7 @@ describe('CalculatorController', () => {
     const calculator = new CalculatorController(10);
 
     expect(calculator.num).toEqual(10);
-
     calculator.subtract(10);
-
     expect(calculator.num).toEqual(0);
   });
 });
